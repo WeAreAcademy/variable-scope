@@ -5,7 +5,7 @@ const words = myString.split(' ');
 
 console.log('Entering my loop:');
 
-for (let word of words) {
+for (const word of words) {
   const capitalisedWord = word.toUpperCase();
   console.log('I shout:', capitalisedWord);
 }
